@@ -1,6 +1,11 @@
+@font-face {
+    font-family: BlackRose;
+    src: url(fonts/black-rose.ttf);
+}
+
 #intro .carousel .carousel-item-three {
-    background-image: none;
-    background-color: rgb(71, 86, 115);
+    background: rgb(71, 86, 115) none;
+    min-height: 450px;
 }
 
 #intro .carousel .carousel-item-three h3 {
@@ -8,11 +13,42 @@
 }
 
 #intro .carousel .carousel-item-three p {
-    font-size: 24px;
-    color: #607499;
+    font-size: 22px;
+    color: rgb(112, 141, 176);
+}
+
+p.carousel-title-v3 span {
+    color: white;
+    vertical-align: sub;
 }
 
 .footer-copyright h3 {
-    font-family: 'Courier New';
+    font-family: monospace;
     text-transform: none;
+}
+
+.expercise-font {
+    font-family: 'BlackRose', sans-serif;
+}
+
+.navbar-brand h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 12px;
+}
+
+.page-on-scroll .navbar-brand h1 {
+    color: rgb(71, 86, 115);
+}
+
+@media (max-width: 991px) {
+    .navbar-brand h1 {
+        color: rgb(71, 86, 115);
+    }
+}
+
+.team-bg {
+    background: rgb(71, 86, 115) none;
 }
