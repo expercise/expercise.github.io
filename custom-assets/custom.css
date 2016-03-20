@@ -49,6 +49,15 @@ p.carousel-title-v3 span {
     }
 }
 
-.team-bg {
+.team-bg, .footer-copyright {
     background: rgb(71, 86, 115) none;
+}
+
+.footer-copyright .copyright-socials li i {
+    background: none !important;
+    color: rgb(112, 141, 176);
+}
+
+section#about .service-body span {
+    font-size: 90px;
 }
