@@ -30,10 +30,12 @@
 
     <!-- BEGIN THEME STYLES -->
     <link href="assets/onepage2/css/layout.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/onepage2/css/custom.css" rel="stylesheet" type="text/css"/>
     <!-- END THEME STYLES -->
 
+    <!-- BEGIN SUTOM STYLES -->
+    <link href="custom-assets/custom.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="custom-assets/images/expercise-logo-rounded.png"/>
+    <!-- END CUSTOM STYLES -->
 </head>
 <!-- END HEAD -->
 
@@ -73,19 +75,10 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#features">Features</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#team">Team</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#clients">Clients</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#pricing">Pricing</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -103,7 +96,7 @@
 <section id="intro">
     <div id="carousel-example-generic" class="carousel slide">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators hidden">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -111,51 +104,21 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner text-uppercase" role="listbox">
-            <!-- First slide -->
-            <div class="item carousel-item-one active">
-                <div class="container">
-                    <h3 class="carousel-position-one animate-delay carousel-title-v1"
-                        data-animation="animated fadeInDown">
-                        The New Way
-                    </h3>
-                    <p class="carousel-position-two animate-delay carousel-subtitle-v1"
-                       data-animation="animated fadeInDown">
-                        To Manage Your <br> Small to Enterprise Business
-                    </p>
-                    <a href="#" class="carousel-position-three animate-delay btn-brd-white"
-                       data-animation="animated fadeInUp">Learn More</a>
-                </div>
-            </div>
-
-            <!-- Second slide -->
-            <div class="item carousel-item-two">
-                <div class="container">
-                    <h3 class="carousel-position-one animate-delay carousel-title-v2"
-                        data-animation="animated fadeInDown">
-                        Ultimate Apps <br> for Business
-                    </h3>
-                    <p class="carousel-position-three animate-delay carousel-subtitle-v2"
-                       data-animation="animated fadeInDown">
-                        Available in: Android &amp; IOS
-                    </p>
-                </div>
-            </div>
 
             <!-- Third slide -->
-            <div class="item carousel-item-three">
+            <div class="item carousel-item-three active">
                 <div class="center-block">
                     <div class="center-block-wrap">
                         <div class="center-block-body">
                             <h3 class="margin-bottom-20 animate-delay carousel-title-v1"
                                 data-animation="animated fadeInDown">
-                                Let us show you
+                                expercise Labs
                             </h3>
                             <p class="margin-bottom-20 animate-delay carousel-title-v3"
                                data-animation="animated fadeInDown">
-                                A few things
+                                Lives to turn ideas into software products
                             </p>
-                            <a href="#" class="animate-delay btn-brd-white" data-animation="animated fadeInUp">Learn
-                                More</a>
+                            <a href="#about" class="animate-delay btn-brd-white" data-animation="animated fadeInUp">About</a>
                         </div>
                     </div>
                 </div>
@@ -168,7 +131,7 @@
 <!-- BEGIN MAIN LAYOUT -->
 <div class="page-content">
     <!-- SUBSCRIBE BEGIN -->
-    <div class="subscribe">
+    <div class="subscribe hidden">
         <div class="container">
             <div class="subscribe-wrap">
                 <div class="subscribe-body subscribe-desc md-margin-bottom-30">
@@ -238,7 +201,7 @@
     <!-- END ABOUT SECTION -->
 
     <!-- BEGIN FEATURES SECTION -->
-    <section id="features">
+    <section id="features" class="hidden">
         <!-- Features BEGIN -->
         <div class="features-bg">
             <div class="container">
@@ -443,7 +406,7 @@
     <!-- END TEAM SECTION -->
 
     <!-- BEGIN CLIENTS SECTION -->
-    <section id="clients">
+    <section id="clients" class="hidden">
         <div class="clients">
             <div class="clients-bg">
                 <div class="container">
@@ -699,7 +662,7 @@
     <!-- END PORTFOLIO SECTION -->
 
     <!-- BEGIN PRICING SECTION -->
-    <section id="pricing">
+    <section id="pricing" class="hidden">
         <div class="pricing-bg">
             <div class="container">
                 <div class="heading">
@@ -761,7 +724,7 @@
     <!-- BEGIN CONTACT SECTION -->
     <section id="contact">
         <!-- Footer -->
-        <div class="footer">
+        <div class="footer hidden">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -797,15 +760,14 @@
         <!-- Footer Coypright -->
         <div class="footer-copyright">
             <div class="container">
-                <h3>Metronic</h3>
+                <h3>$ git add your-new-idea.txt</h3>
                 <ul class="copyright-socials">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="mailto:expercise@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                    <li><a><i class="fa fa-twitter"></i></a></li>
+                    <li><a><i class="fa fa-facebook"></i></a></li>
+                    <li><a><i class="fa fa-linkedin"></i></a></li>
                 </ul>
-                <P>Designed with love by KeenThemes</P>
+                <p class="hidden">Designed with love by KeenThemes</p>
             </div>
         </div>
         <!-- End Footer Coypright -->

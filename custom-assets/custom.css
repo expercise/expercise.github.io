@@ -1,0 +1,18 @@
+#intro .carousel .carousel-item-three {
+    background-image: none;
+    background-color: rgb(71, 86, 115);
+}
+
+#intro .carousel .carousel-item-three h3 {
+    text-transform: none;
+}
+
+#intro .carousel .carousel-item-three p {
+    font-size: 24px;
+    color: #607499;
+}
+
+.footer-copyright h3 {
+    font-family: 'Courier New';
+    text-transform: none;
+}
