@@ -1,2 +1,2 @@
-# expercise.github.io
-GitHub Pages for expercise organization
+# expercise Labs
+GitHub Pages for expercise Labs
