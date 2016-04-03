@@ -1,8 +1,33 @@
+/* Common */
 @font-face {
     font-family: BlackRose;
     src: url(fonts/black-rose.ttf);
 }
 
+.expercise-font {
+    font-family: 'BlackRose', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 12px;
+}
+
+.page-on-scroll .navbar-brand h1 {
+    color: rgb(71, 86, 115);
+}
+
+@media (max-width: 991px) {
+    .navbar-brand h1 {
+        color: rgb(71, 86, 115);
+    }
+}
+
+/* Intro Section */
 #intro .carousel .carousel-item-three {
     background: rgb(71, 86, 115) none;
     min-height: 450px;
@@ -22,31 +47,16 @@ p.carousel-title-v3 span {
     vertical-align: sub;
 }
 
+/* About Section */
+section#about .service-body span {
+    font-size: 90px;
+}
+
+/* Footer Section */
 .footer-copyright h3 {
     font-family: monospace;
     text-transform: none;
-}
-
-.expercise-font {
-    font-family: 'BlackRose', sans-serif;
-}
-
-.navbar-brand h1 {
-    color: white;
-    font-size: 30px;
-    margin-top: 0;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 5px 12px;
-}
-
-.page-on-scroll .navbar-brand h1 {
-    color: rgb(71, 86, 115);
-}
-
-@media (max-width: 991px) {
-    .navbar-brand h1 {
-        color: rgb(71, 86, 115);
-    }
+    font-size: 24px;
 }
 
 .team-bg, .footer-copyright {
@@ -56,8 +66,10 @@ p.carousel-title-v3 span {
 .footer-copyright .copyright-socials li i {
     background: none !important;
     color: rgb(112, 141, 176);
+    font-size: 20px;
 }
 
-section#about .service-body span {
-    font-size: 90px;
+.footer-copyright p, .footer-copyright p a {
+    font-size: 12px;
+    color: #8693a7;
 }
