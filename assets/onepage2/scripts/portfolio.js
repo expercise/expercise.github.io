@@ -13,7 +13,7 @@
         layoutMode: 'grid',
         rewindNav: true,
         scrollByPage: false,
-        defaultFilter: '*',
+        defaultFilter: '.education',
         animationType: 'scaleSides',
         gapHorizontal: 20,
         gapVertical: 20,
