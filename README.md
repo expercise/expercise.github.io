@@ -1,2 +1,2 @@
 # expercise Labs
-GitHub Pages for expercise Labs: http://expercise.com
+GitHub Pages for expercise Labs: https://expercise.github.io
